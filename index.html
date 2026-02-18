@@ -13,6 +13,16 @@ body {
     color: #222;
 }
 
+/* SERVICE AREA BANNER */
+.service-area {
+    background: #bfa046;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
 /* HERO SECTION */
 .hero {
     position: relative;
@@ -124,6 +134,12 @@ input[type="number"] {
     color: #bfa046;
 }
 
+.extra-note {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ffd88c;
+}
+
 button {
     margin-top: 20px;
     padding: 12px 30px;
@@ -149,6 +165,11 @@ footer {
 </head>
 
 <body>
+
+<!-- SERVICE AREA BANNER -->
+<div class="service-area">
+    Devon & Cornwall
+</div>
 
 <!-- HERO SECTION -->
 <div class="hero">
@@ -214,6 +235,10 @@ footer {
 
     <div class="price">
         Total Estimate: £<span id="total">80</span>
+    </div>
+
+    <div class="extra-note">
+        Extra metres can be added if required. You will be notified — communication is key.
     </div>
 
     <button onclick="sendQuote()">Request Quote via Email</button>
