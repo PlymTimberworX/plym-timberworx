@@ -14,19 +14,23 @@ body {
 }
 
 /* HERO SECTION */
-<div class="hero">
-    <img src="Logo.png" alt="Plym TimberworX Logo" class="hero-logo">
+.hero {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url('landscaping1.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 120px 20px;
+}
 
-    <div style="margin-top: 20px;">
-        <a href="https://www.facebook.com/share/1BFwPPL8GT/" target="_blank" class="btn">
-            Visit Our Facebook Page
-        </a>
-        <br>
-        <a href="mailto:plymtimberworx@gmail.com" class="btn" style="margin-top:10px;">
-            Email Us Directly
-        </a>
-    </div>
-</div>
+.hero-logo {
+    max-width: 300px; /* Bigger logo */
+    margin: 0 auto 20px auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
 
 .btn {
     display: inline-block;
@@ -146,6 +150,7 @@ footer {
 
 <body>
 
+<!-- HERO SECTION -->
 <div class="hero">
     <img src="Logo.png" alt="Plym TimberworX Logo" class="hero-logo">
 
@@ -160,6 +165,7 @@ footer {
     </div>
 </div>
 
+<!-- SERVICES SECTION -->
 <section class="services">
     <h2>Our Services</h2>
 
@@ -186,6 +192,7 @@ footer {
     </div>
 </section>
 
+<!-- GALLERY SECTION -->
 <section class="gallery">
     <h2>Recent Projects</h2>
 
@@ -197,6 +204,7 @@ footer {
     </div>
 </section>
 
+<!-- CALCULATOR SECTION -->
 <section class="calculator">
     <h2>Feather Edge Fencing Price Calculator</h2>
     <p>£80 per metre – Includes Labour & Materials</p>
